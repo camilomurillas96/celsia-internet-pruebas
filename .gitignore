@@ -1,0 +1,29 @@
+# =========================
+# BACKEND (Spring Boot / Java)
+# =========================
+api/target/
+*.class
+*.log
+*.jar
+*.war
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# FRONTEND (React / Node)
+# =========================
+webapp/node_modules/
+webapp/dist/
+webapp/dist-ssr/
+*.local
+
+
+.idea/
+.vscode/
+*.iml
+*.eclipse
+
+.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
